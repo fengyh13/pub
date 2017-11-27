@@ -1,7 +1,3 @@
-/**
- * Created by liutao on 16/12/14.
- */
-
 module.exports = new Tools();
 
 function Tools(){}

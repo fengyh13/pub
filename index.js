@@ -1,7 +1,3 @@
-/**
- * Created by liutao on 16/12/14.
- */
-
 global.Promise = require('bluebird');
 const path = require("path");
 const fs = require("fs");

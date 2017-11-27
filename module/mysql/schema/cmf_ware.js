@@ -1,12 +1,5 @@
-/**
- * Created by liutao on 16/10/20.
- */
-
-
-//商品表
 
 const Sequelize = require('sequelize');
-
 const schemaName = require('path').basename(__filename, '.js');
 
 const schemaModel = {

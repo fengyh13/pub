@@ -1,21 +1,10 @@
-/**
- * Created by liutao on 16/12/14.
- */
-
 const fs = require('fs');
-
 const path = require('path');
-
 const schemaPath = path.join(__dirname, "schema");
-
 const mysqlSchemaList = fs.readdirSync(schemaPath);
-
 const Sequelize = require('sequelize');
-
 const mysqlConfig = require('../../config').mysqlConnect;
-
 const obj = {};
-
 const async = require('async');
 
 const mysqlConnect = new Sequelize(

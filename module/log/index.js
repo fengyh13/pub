@@ -1,11 +1,3 @@
-/**
- * Created by liutao on 16/12/14.
- */
-
-/**
- * Created by liutao on 16/10/14.
- */
-
 'use strict';
 
 const bunyan = require('bunyan');

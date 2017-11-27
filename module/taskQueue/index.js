@@ -1,6 +1,3 @@
-/**
- * Created by fyh13 on 16/10/19.
- */
 const Bull = require('bull');
 const request = require('request');
 const parseString = require('xml2js').parseString;
@@ -91,7 +88,6 @@ Queue.prototype.createFriTaskQueue = ()=> {
     	url = sendMsgUrlInternational;
     }
     
-    console.log("...............................................................");
     var r = request.post(url, function (err, httpResponse, body) {
       if (err) {
         console.log('post failed:', err);
